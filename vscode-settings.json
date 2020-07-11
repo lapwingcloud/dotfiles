@@ -1,0 +1,51 @@
+{
+  "editor.fontFamily": "'Jetbrains Mono'",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 21,
+  "editor.letterSpacing": 1,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/venv/**": true
+  },
+
+  "search.useIgnoreFiles": false,
+
+  "window.menuBarVisibility": "toggle",
+
+  "workbench.activityBar.visible": false,
+
+  "go.goroot": "/snap/go/current",
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+
+  "python.formatting.provider": "black",
+  "python.venvPath": "~/.cache/pypoetry/virtualenvs"
+}
