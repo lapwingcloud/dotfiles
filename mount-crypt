@@ -1,0 +1,2 @@
+#!/bin/bash
+encfs -i 120 -o nonempty ~/.crypt ~/crypt
