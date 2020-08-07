@@ -65,10 +65,21 @@
     "editor.tabSize": 2
   },
 
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+
   "go.goroot": "/snap/go/current",
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
 
   "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
   "python.venvPath": "~/.cache/pypoetry/virtualenvs"
 }
