@@ -85,8 +85,9 @@
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
 
-  "java.refactor.renameFromFileExplorer": "autoApply",
   "java.project.importOnFirstTimeStartup": "automatic",
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "java.semanticHighlighting.enabled": true,
 
   "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
