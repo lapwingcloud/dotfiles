@@ -32,8 +32,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
 
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "error",
 
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -90,8 +89,6 @@
   "gitlens.views.search.location": "gitlens",
 
   "go.goroot": "/snap/go/current",
-  "go.formatTool": "goimports",
-  "go.useLanguageServer": true,
 
   "java.configuration.updateBuildConfiguration": "automatic",
   "java.project.importOnFirstTimeStartup": "automatic",
