@@ -1,0 +1,10 @@
+gtk.font_name: Open Sans 12
+gtk.document_font_name: Open Sans 11
+gtk.monospace_font_name: JetBrains Mono 12
+
+gnome.terminal.font: JetBrains Mono 12
+i3xrocks.value.font: JetBrains Mono 12
+wm.bar.font: JetBrains Mono 10
+wm.gaps.inner.size: 0
+wm.gaps.outer.size: 0
+wm.window.border.size: 1
